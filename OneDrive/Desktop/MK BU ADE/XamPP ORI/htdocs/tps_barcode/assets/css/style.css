@@ -1,0 +1,48 @@
+* {
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(120deg, #4CAF50, #2e7d32);
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 360px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 15px;
+    color: #2e7d32;
+}
+
+#reader {
+    margin: 0 auto;
+}
+
+#hasil {
+    margin-top: 15px;
+    padding: 12px;
+    border-radius: 8px;
+    background: #f1f8e9;
+    text-align: left;
+    font-size: 14px;
+}
+
+.success {
+    color: #2e7d32;
+    font-weight: bold;
+}
+
+.error {
+    color: #c62828;
+    font-weight: bold;
+}
